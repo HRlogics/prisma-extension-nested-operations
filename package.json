@@ -1,12 +1,12 @@
 {
-  "name": "@trakcap/prisma-extension-nested-operations",
-  "version": "1.0.2",
+  "name": "@hrlogics/prisma-extension-nested-operations",
+  "version": "1.0.3",
   "description": "Utils for creating Prisma client extensions with nested operations",
   "author": "Olivier Wilkinson",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trakcap/prisma-extension-nested-operations.git"
+    "url": "git+https://github.com/hrlogics/prisma-extension-nested-operations.git"
   },
   "engines": {
     "node": "~24.18.0"
