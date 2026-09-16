@@ -1,6 +1,6 @@
-const writeFileSync = require("node:fs").writeFileSync;
+import { writeFileSync } from "node:fs";
 
-const generatorHelper = require("@prisma/generator-helper");
+import generatorHelper from "@prisma/generator-helper";
 
 generatorHelper.generatorHandler({
   onManifest: () => {
