@@ -1,9 +1,10 @@
 {
   "name": "@hrlogics/prisma-extension-nested-operations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utils for creating Prisma client extensions with nested operations",
   "author": "Olivier Wilkinson",
   "license": "Apache-2.0",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hrlogics/prisma-extension-nested-operations.git"

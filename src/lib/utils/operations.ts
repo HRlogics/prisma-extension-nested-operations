@@ -4,7 +4,7 @@ import type {
   NestedQueryOperation,
   NestedReadOperation,
   NestedWriteOperation,
-} from "../types";
+} from "../types.js";
 
 export const queryOperations: NestedQueryOperation[] = ["where"];
 export const readOperations: NestedReadOperation[] = ["include", "select"];

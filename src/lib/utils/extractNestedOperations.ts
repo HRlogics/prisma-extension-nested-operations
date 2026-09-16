@@ -1,9 +1,9 @@
 import type { Types } from "@prisma/client/runtime/client";
 import { get } from "es-toolkit/compat";
 
-import type { DMMF, LogicalOperator, NestedParams, NestedWriteOperation, Target } from "../types";
-import { isWriteOperation, logicalOperators, modifiers, readOperations } from "./operations";
-import { findOppositeRelation, getRelationsByModel } from "./relations";
+import type { DMMF, LogicalOperator, NestedParams, NestedWriteOperation, Target } from "../types.js";
+import { isWriteOperation, logicalOperators, modifiers, readOperations } from "./operations.js";
+import { findOppositeRelation, getRelationsByModel } from "./relations.js";
 
 type NestedOperationInfo<ExtArgs extends Types.Extensions.InternalArgs = Types.Extensions.DefaultArgs> = {
   params: NestedParams<ExtArgs>;

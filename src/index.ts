@@ -1,8 +1,8 @@
-export { withNestedOperations } from "./lib/nestedOperations";
-export {
+export { withNestedOperations } from "./lib/nestedOperations.js";
+export type {
   ExecuteFunction,
   NestedOperation,
   NestedParams,
   NestedReadOperation,
   NestedWriteOperation,
-} from "./lib/types";
+} from "./lib/types.js";

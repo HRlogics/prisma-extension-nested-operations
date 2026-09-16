@@ -1,4 +1,4 @@
-import { DMMF, DMMFField } from "../types";
+import type { DMMF, DMMFField } from "../types.js";
 
 const cache = new WeakMap<object, Record<string, DMMFField[]>>();
 export function getRelationsByModel(dmmf: DMMF) {

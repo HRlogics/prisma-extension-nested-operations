@@ -3,7 +3,7 @@
 
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**/*.{js,ts,json,jsonc}", "!**/__generated__", "!!/dist"]
+    "includes": ["**/*.{js,ts,json,jsonc}", "!**/__generated__", "!**/dist"]
   },
 
   "formatter": {
