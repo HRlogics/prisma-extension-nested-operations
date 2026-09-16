@@ -1,16 +1,16 @@
 import type { Types } from "@prisma/client/runtime/client";
 
-import type { DMMF, NestedParams, OperationCall } from "./types";
-import { executeOperation } from "./utils/execution";
-import { extractNestedOperations } from "./utils/extractNestedOperations";
-import { buildArgsFromCalls } from "./utils/params";
+import type { DMMF, NestedParams, OperationCall } from "./types.js";
+import { executeOperation } from "./utils/execution.js";
+import { extractNestedOperations } from "./utils/extractNestedOperations.js";
+import { buildArgsFromCalls } from "./utils/params.js";
 import {
   addIdSymbolsToResult,
   getRelationResult,
   stripIdSymbolsFromResult,
   updateResultRelation,
-} from "./utils/results";
-import { buildTargetRelationPath } from "./utils/targets";
+} from "./utils/results.js";
+import { buildTargetRelationPath } from "./utils/targets.js";
 
 type NonNullable<T> = Exclude<T, null | undefined>;
 

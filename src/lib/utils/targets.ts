@@ -1,5 +1,5 @@
-import type { LogicalOperator, QueryTarget, ReadTarget, Target, WriteTarget } from "../types";
-import { isQueryOperation, isReadOperation, isWriteOperation } from "./operations";
+import type { LogicalOperator, QueryTarget, ReadTarget, Target, WriteTarget } from "../types.js";
+import { isQueryOperation, isReadOperation, isWriteOperation } from "./operations.js";
 
 export function isQueryTarget(target: any): target is QueryTarget {
   return isQueryOperation(target.operation);

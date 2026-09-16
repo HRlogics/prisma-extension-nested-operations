@@ -10,10 +10,10 @@ import type {
   Scope,
   Target,
   WriteTarget,
-} from "../types";
-import { cloneArgs } from "./cloneArgs";
-import { fieldsByWriteOperation } from "./extractNestedOperations";
-import { isQueryOperation, isReadOperation, isWriteOperation, toOneRelationNonListOperations } from "./operations";
+} from "../types.js";
+import { cloneArgs } from "./cloneArgs.js";
+import { fieldsByWriteOperation } from "./extractNestedOperations.js";
+import { isQueryOperation, isReadOperation, isWriteOperation, toOneRelationNonListOperations } from "./operations.js";
 import {
   buildQueryTargetPath,
   buildReadTargetPath,
@@ -23,7 +23,7 @@ import {
   isReadTarget,
   isWriteTarget,
   targetChainLength,
-} from "./targets";
+} from "./targets.js";
 
 function addWriteToArgs<ExtArgs extends Types.Extensions.InternalArgs = Types.Extensions.DefaultArgs>(
   args: any,
